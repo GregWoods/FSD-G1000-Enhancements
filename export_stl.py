@@ -11,6 +11,7 @@ import Part
 import Mesh
 import os
 
+
 # Accept a command line argument for the FCStd file path
 if len(sys.argv) < 3:
     print("Please provide the path to the FCStd file as a command line argument.")
@@ -33,12 +34,17 @@ print("Extension:", file_ext)
 # Load your FreeCAD document
 doc = FreeCAD.open(fcstd_file_path)
 
-# Access the solid body
-# Get the last object in the document 
-last_object = doc.Objects[-1] 
-
-print("Last object Name:", last_object.Name)
-print("Last object TypeId:", last_object.TypeId)
+# Loop backwards through the objects to find a solid body
+for obj in reversed(doc.Objects):
+    if hasattr(obj, 'Shape'):
+        if hasattr(obj.Shape, 'ShapeType'):
+            if obj.Shape.ShapeType == 'Solid':
+                print("Found a solid object:", obj.Name)
+                last_object = obj
+                break
+else:
+    print("ERROR: No non-mesh object found in the document.")
+    sys.exit(1)
 
 # Create a mesh object from the solid body
 mesh_object = Mesh.Mesh(Part.getShape(last_object).tessellate(1))
@@ -50,3 +56,6 @@ mesh.Mesh = mesh_object
 # Export the mesh as an STL file
 export_path = os.path.join(file_dir, file_name_without_ext + ".stl")
 Mesh.export([mesh], export_path)
+
+# Open with default app (slicer)
+os.startfile(export_path)
