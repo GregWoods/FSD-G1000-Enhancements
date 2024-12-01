@@ -26,22 +26,20 @@ file_dir, file_name = os.path.split(fcstd_file_path)
 # Split the filename into name and extension
 file_name_without_ext, file_ext = os.path.splitext(file_name)
 
-# Print the directory, filename without extension, and extension
-print("Directory:", file_dir)
-print("Filename without extension:", file_name_without_ext)
-print("Extension:", file_ext)
-
 # Load your FreeCAD document
 doc = FreeCAD.open(fcstd_file_path)
 
-# Loop backwards through the objects to find a solid body
+# Loop backwards through the objects to find a valid solid body
 for obj in reversed(doc.Objects):
-    if hasattr(obj, 'Shape'):
-        if hasattr(obj.Shape, 'ShapeType'):
-            if obj.Shape.ShapeType == 'Solid':
-                print("Found a solid object:", obj.Name)
+    try:
+        print(obj.Label)
+        if (obj.Shape.ShapeType == 'Solid' 
+            and obj.Visibility == True
+            and obj.Suppressed == False):
                 last_object = obj
                 break
+    except:
+         continue
 else:
     print("ERROR: No non-mesh object found in the document.")
     sys.exit(1)
