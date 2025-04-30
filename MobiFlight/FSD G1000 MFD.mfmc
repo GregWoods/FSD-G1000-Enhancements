@@ -1,0 +1,100 @@
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleType>MobiFlight Mega</ModuleType>
+  <ModuleName>FSD G1000 MFD</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+
+  <InputMultiplexer Name="MUX1" DataPin="33" NumBytes="2">
+    <Selector Name="MultiplexerDriver" PinSx="41 39 37 35" />
+  </InputMultiplexer>
+  <!-- 
+    MUX1:0 = NAV VOL PUSH
+    MUX1:1 = [Not Used]
+    MUX1:2 = NAV FREQ PUSH
+    MUX1:3 = ALT INNER PUSH
+    MUX1:4 = SOFTKEY1
+    MUX1:5 = SOFTKEY2
+    MUX1:6 = SOFTKEY3
+    MUX1:7 = SOFTKEY4
+    MUX1:8 = SOFTKEY5
+    MUX1:9 = SOFTKEY6
+    MUX1:10 = SOFTKEY7
+    MUX1:11 = SOFTKEY8
+    MUX1:12 = SOFTKEY9
+    MUX1:13 = SOFTKEY10
+    MUX1:14 = SOFTKEY11
+    MUX1:15 = SOFTKEY12
+  -->
+
+  <Encoder Name="NAV VOL" PinLeft="65" PinRight="63" EncoderType="2" />
+
+  <Encoder Name="NAV FREQ INNER" PinLeft="61" PinRight="59" EncoderType="2" />
+  <Encoder Name="NAV FREQ OUTER" PinLeft="57" PinRight="55" EncoderType="2" />
+
+  <Encoder Name="HDG BUG" PinLeft="54" PinRight="56" EncoderType="2" />
+  <Button Name="HDG BUG PUSH" Pin="58" />
+
+  <Button Name="AP BTN" Pin="60" />
+  <Button Name="FD BTN" Pin="40" />
+  <Button Name="HDG BTN" Pin="62" />
+  <Button Name="ALT BTN" Pin="42" />
+  <Button Name="NAV BTN" Pin="32" />
+  <Button Name="VNV BTN" Pin="44" />
+  <Button Name="APR BTN" Pin="34" />
+  <Button Name="BC BTN" Pin="46" />
+  <Button Name="VS BTN" Pin="36" />
+  <Button Name="NOSE UP BTN" Pin="47" />
+  <Button Name="FLC BTN" Pin="38" />
+  <Button Name="NOSE DN NTN" Pin="48" />
+
+  <Encoder Name="ALT OUTER" PinLeft="53" PinRight="51" EncoderType="2" />
+  <Encoder Name="ALT INNER" PinLeft="50" PinRight="52" EncoderType="2" />
+
+  <!--RHS-->
+  <Encoder Name="COM VOL" PinLeft="19" PinRight="21" EncoderType="2" />
+
+  <Button Name="COM SWAP 1-2" Pin="25" />
+
+  <Encoder Name="COM FREQ INNER" PinLeft="27" PinRight="29" EncoderType="2" />
+  <Encoder Name="COM FREQ OUTER" PinLeft="31" PinRight="30" EncoderType="2" />
+  <Button Name="COM FREQ PUSH" Pin="28" />
+
+  <Encoder Name="CRSBARO CRS" PinLeft="26" PinRight="24" EncoderType="2" />
+  <Encoder Name="CRSBARO BARO" PinLeft="20" PinRight="22" EncoderType="2" />
+  <Button Name="CRSBARO PUSH " Pin="18" />
+
+  <Encoder Name="RANGE ZOOM" PinLeft="15" PinRight="17" EncoderType="2" />
+  <Button Name="RANGE UP" Pin="11" />
+  <Button Name="RANGE RIGHT" Pin="5" />
+  <Button Name="RANGE DOWN" Pin="7" />
+  <Button Name="RANGE LEFT" Pin="9" />
+  <Button Name="RANGE Push" Pin="3" />
+
+  <Button Name="DIRECT TO" Pin="16" />
+  <Button Name="MENU" Pin="69" />
+  <Button Name="FPL" Pin="14" />
+  <Button Name="PROC" Pin="8" />
+  <Button Name="CLR" Pin="12" />
+  <Button Name="ENT" Pin="67" />
+
+  <Encoder Name="FMS INNER" PinLeft="4" PinRight="2" EncoderType="2" />
+  <Encoder Name="FMS OUTER" PinLeft="43" PinRight="45" EncoderType="2" />
+  <Button Name="FMS PUSH" Pin="49" />  
+
+  <!-- Multiplexers 2,3,4 Do not exist on my boards
+  <InputMultiplexer Name="MUX2" DataPin="64" NumBytes="2">
+    <Selector Name="MultiplexerDriver" PinSx="41 39 37 35" />
+  </InputMultiplexer>
+  
+  <InputMultiplexer Name="MUX3" DataPin="66" NumBytes="2">
+    <Selector Name="MultiplexerDriver" PinSx="41 39 37 35" />
+  </InputMultiplexer>
+  
+  <InputMultiplexer Name="MUX4" DataPin="68" NumBytes="2">
+    <Selector Name="MultiplexerDriver" PinSx="41 39 37 35" />
+  </InputMultiplexer>
+  -->
+
+  <Output Name="BTN Backlight" Pin="6" />
+  <Output Name="LCD Backlight" Pin="10" />
+
+</Config>

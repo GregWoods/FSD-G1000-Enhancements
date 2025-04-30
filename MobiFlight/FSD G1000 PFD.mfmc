@@ -1,44 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ModuleType>MobiFlight Mega</ModuleType>
   <ModuleName>FSD G1000 PFD</ModuleName>
-  <PowerSavingTime>600</PowerSavingTime>
-  <Encoder Name="PFD FMS Inner" PinLeft="4" PinRight="2" EncoderType="2" />
-  <Button Name="PFD RNG PAN Push" Pin="3" />
-  <Button Name="PFD PAN Right" Pin="5" />
-  <Output Name="PFD BTN Backlight" Pin="6" />
-  <Button Name="PFD PAN Down" Pin="7" />
-  <Button Name="PFD PROC" Pin="8" />
-  <Button Name="PFD PAN Left" Pin="9" />
-  <Output Name="PFD LCD Backlight" Pin="10" />
-  <Button Name="PFD PAN Up" Pin="11" />
-  <Button Name="PFD CLR" Pin="12" />
-  <Button Name="PFD NC" Pin="13" />
-  <Button Name="PFD FPL" Pin="14" />
-  <Encoder Name="PFD RNG PAN Encd" PinLeft="15" PinRight="17" EncoderType="1" />
-  <Button Name="PFD DIR TO" Pin="16" />
-  <Button Name="PFD CRS BARO Push " Pin="18" />
-  <Encoder Name="PFD COM VOL" PinLeft="19" PinRight="21" EncoderType="2" />
-  <Encoder Name="PFD CRSBARO OUT" PinLeft="20" PinRight="22" EncoderType="2" />
-  <Button Name="PFD COM VOL Push" Pin="23" />
-  <Encoder Name="PFD CRSBARO IN" PinLeft="26" PinRight="24" EncoderType="2" />
-  <Button Name="PFD COM Flip Flop" Pin="25" />
-  <Encoder Name="PFD COM IN" PinLeft="27" PinRight="29" EncoderType="2" />
-  <Button Name="PFD COM Push" Pin="28" />
-  <Encoder Name="PFD COM OUT" PinLeft="31" PinRight="30" EncoderType="2" />
-  <Button Name="PFD NAV" Pin="32" />
-  <InputMultiplexer Name="PFD MUX1" DataPin="33" NumBytes="2">
-    <Selector Name="MultiplexerDriver" PinSx="41 39 37 35" />
-  </InputMultiplexer>
-  <Button Name="PFD APR" Pin="34" />
-  <Button Name="PFD VS" Pin="36" />
-  <Button Name="PFD FLC" Pin="38" />
-  <Button Name="PFD FD" Pin="40" />
-  <Button Name="PFD ALT" Pin="42" />
-  <Encoder Name="PFD FMS OUT" PinLeft="43" PinRight="45" EncoderType="2" /><?xml version="1.0" encoding="utf-8"?>
-<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <ModuleType>MobiFlight Mega</ModuleType>
-  <ModuleName>FSD G1000</ModuleName>
   <PowerSavingTime>600</PowerSavingTime>
 
   <InputMultiplexer Name="MUX1" DataPin="33" NumBytes="2">
@@ -136,46 +98,4 @@
   <Output Name="BTN Backlight" Pin="6" />
   <Output Name="LCD Backlight" Pin="10" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</Config>
-  <Button Name="PFD VNV" Pin="44" />
-  <Button Name="PFD BC" Pin="46" />
-  <Button Name="PFD NOSE UP" Pin="47" />
-  <Button Name="PFD NOSE DN" Pin="48" />
-  <Button Name="PFD FMS Push" Pin="49" />
-  <Encoder Name="PFD HDG Encdr" PinLeft="54" PinRight="56" EncoderType="2" />
-  <Encoder Name="PFD NAV OUT" PinLeft="57" PinRight="55" EncoderType="2" />
-  <Button Name="PFD HDG Push" Pin="58" />
-  <Encoder Name="PFD NAV IN" PinLeft="61" PinRight="59" EncoderType="2" />
-  <Button Name="PFD AP" Pin="60" />
-  <Button Name="PFD HDG" Pin="62" />
-  <Encoder Name="PFD NAV VOL" PinLeft="65" PinRight="63" EncoderType="2" />
-  <Button Name="PFD ENT" Pin="67" />
-  <InputMultiplexer Name="PFD MUX2" DataPin="64" NumBytes="2">
-    <Selector Name="MultiplexerDriver" PinSx="41 39 37 35" />
-  </InputMultiplexer>
-  <InputMultiplexer Name="PFD MUX3" DataPin="66" NumBytes="2">
-    <Selector Name="MultiplexerDriver" PinSx="41 39 37 35" />
-  </InputMultiplexer>
-  <InputMultiplexer Name="PFD MUX4" DataPin="68" NumBytes="2">
-    <Selector Name="MultiplexerDriver" PinSx="41 39 37 35" />
-  </InputMultiplexer>
-  <Button Name="PFD MENU" Pin="69" />
-  <Encoder Name="PFD ALT OUT" PinLeft="53" PinRight="51" EncoderType="2" />
-  <Encoder Name="PFD ALT IN" PinLeft="50" PinRight="52" EncoderType="2" />
 </Config>
