@@ -1,0 +1,52 @@
+name: Generate STL and Create Release
+
+on:
+  push:
+    branches:
+      - main  # Change this to your default branch if it's not 'main'
+
+jobs:
+  generate-stl:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # Specify the Python version you need
+
+    - name: Install FreeCAD
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y freecad-common freecad-python3
+      # Massive install!! It Works, but installed FreeCAD 0.20.2
+
+      # Perhaps I should generate STL locally in a folder and use GitHub actions to turn them into 
+      #   a release
+
+    - name: Run export_stl.py
+      run: python export_stl.py path/to/your/FCStd/file.FCStd
+
+    - name: Create release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ github.sha }}
+        release_name: Release ${{ github.sha }}
+        draft: false
+        prerelease: false
+
+    - name: Upload STL file
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: path/to/generated/file.stl
+        asset_name: file.stl
+        asset_content_type: application/vnd.ms-pki.stl
