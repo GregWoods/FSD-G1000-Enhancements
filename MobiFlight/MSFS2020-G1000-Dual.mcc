@@ -191,7 +191,7 @@
           <transformation active="False" expression="$" />
           <comparison active="False" value="" operand="" ifValue="" elseValue="" />
         </modifiers>
-        <display type="Output" serial="FSD G1000 MFD/ SN-7G3-34D" trigger="normal" pin="MFD BTN Backlight" pinBrightness="255" pinPwm="True" />
+        <display type="Output" serial="FSD G1000 PFD/ SN-4F6-017" trigger="normal" pin="MFD BTN Backlight" pinBrightness="255" pinPwm="True" />
         <preconditions />
         <configrefs />
       </settings>
@@ -276,7 +276,7 @@
             <value x="2" y="0" />
           </interpolation>
         </modifiers>
-        <display type="Output" serial="FSD G1000 MFD/ SN-7G3-34D" trigger="normal" pin="MFD LCD Backlight" pinBrightness="255" pinPwm="True" />
+        <display type="Output" serial="FSD G1000 PFD/ SN-4F6-017" trigger="normal" pin="MFD LCD Backlight" pinBrightness="255" pinPwm="True" />
         <preconditions />
         <configrefs />
       </settings>
@@ -296,7 +296,7 @@
             <value x="2" y="255" />
           </interpolation>
         </modifiers>
-        <display type="Output" serial="FSD G1000 MFD/ SN-7G3-34D" trigger="normal" pin="MFD LCD Backlight" pinBrightness="255" pinPwm="True" />
+        <display type="Output" serial="FSD G1000 PFD/ SN-4F6-017" trigger="normal" pin="MFD LCD Backlight" pinBrightness="255" pinPwm="True" />
         <preconditions />
         <configrefs />
       </settings>
@@ -375,7 +375,7 @@
       </settings>
     </config>
     <config guid="4c320e84-2860-49d4-bd8f-3ea203f6a873">
-      <active>true</active>
+      <active>false</active>
       <description>PFD NAV VOL</description>
       <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="NAV VOL" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
@@ -1116,7 +1116,7 @@
     <config guid="854dc9d0-005f-4461-9338-41b9a0590ef4">
       <active>true</active>
       <description>MFD NAV VOL Push</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MFD MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MFD MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="0">
           <onPress type="MSFS2020CustomInputAction" command="" presetId="-" />
         </inputMultiplexer>
@@ -1127,7 +1127,7 @@
     <config guid="4c320e84-2860-49d4-bd8f-3ea203f6a873">
       <active>true</active>
       <description>MFD NAV VOL</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="NAV VOL" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="NAV VOL" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_VOL_1_DEC)" presetId="167a047e-eee9-48e4-8101-398dc99d6ebb" />
           <onLeftFast />
@@ -1141,7 +1141,7 @@
     <config guid="292ebe49-7547-4189-848f-73498d9cd524">
       <active>true</active>
       <description>MFD NAV Flip Flop</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="1">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_NAV_Switch)" presetId="8da1c6c8-03fd-49ba-b1d9-90ad72b1a0ce" />
         </inputMultiplexer>
@@ -1152,7 +1152,7 @@
     <config guid="37108adf-7462-45a4-9b43-27b480684969">
       <active>true</active>
       <description>MFD NAV OUT</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="NAV FREQ OUTER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="NAV FREQ OUTER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_NAV_Large_DEC)" presetId="cc1d3714-0e32-47b0-9d93-e8aed37e88de" />
           <onLeftFast />
@@ -1166,7 +1166,7 @@
     <config guid="2b4a8f54-e33d-4bbd-8cf2-9de4ad0e86e5">
       <active>true</active>
       <description>MFD NAV IN</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="NAV FREQ INNER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="NAV FREQ INNER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_NAV_Small_DEC)" presetId="d173eee1-1eeb-47b6-9ffa-5e74e9737f4f" />
           <onLeftFast />
@@ -1180,7 +1180,7 @@
     <config guid="8bd4f162-1744-4980-88c9-0a9c8fca7fd1">
       <active>true</active>
       <description>MFD NAV Push</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="2">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_NAV_Push)" presetId="f0fb9102-a592-4ce8-b810-41a9fbdc7419" />
         </inputMultiplexer>
@@ -1191,7 +1191,7 @@
     <config guid="6337555a-dd34-4521-8af4-b98a3fec0bc1">
       <active>true</active>
       <description>MFD HDG Encdr</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="HDG BUG" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="HDG BUG" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="1 (&gt;K:HEADING_BUG_DEC)" presetId="f0fc58e9-c560-40d2-99ac-9293fab28f8d" />
           <onLeftFast />
@@ -1205,7 +1205,7 @@
     <config guid="7f3efe75-237f-4872-b918-3e897d0a580d">
       <active>true</active>
       <description>MFD HDG Push</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="HDG BUG PUSH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="HDG BUG PUSH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(A:HEADING INDICATOR, degrees) (&gt;K:HEADING_BUG_SET)" presetId="67c38b01-e4cd-448c-a572-cba1b6d250f5" />
         </button>
@@ -1216,7 +1216,7 @@
     <config guid="fb8a3ac7-06f4-47c7-a2fa-b906556639c1">
       <active>true</active>
       <description>MFD AP</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="AP BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="AP BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(A:AUTOPILOT DISENGAGED, Bool) ! if{ &#xA;   (&gt;K:AP_MASTER) &#xA;   (A:AUTOPILOT MASTER, Bool) ! if{ &#xA;      (&gt;H:Generic_Autopilot_Manual_Off) } &#xA;      els{ &#xA;      (A:AUTOPILOT FLIGHT DIRECTOR ACTIVE, Bool) ! if{ &#xA;      1 (&gt;K:TOGGLE_FLIGHT_DIRECTOR) } } &#xA;(A:AUTOPILOT MASTER, Bool) ! if{ &#xA;  (A:AUTOPILOT FLIGHT DIRECTOR ACTIVE, Bool) ! if{ &#xA;      1 (&gt;K:TOGGLE_FLIGHT_DIRECTOR) } } " presetId="2ca611e1-750d-4aeb-827c-5d1dfac50b05" />
         </button>
@@ -1227,7 +1227,7 @@
     <config guid="12afa54c-38ed-4ec2-a728-a79fa532b548">
       <active>true</active>
       <description>MFD FD</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="FD BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="FD BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(A:AUTOPILOT MASTER, Bool) ! if{ &#xA;0 (&gt;K:TOGGLE_FLIGHT_DIRECTOR) }" presetId="5b749aa5-9f55-4328-b1c1-c70055d88da3" />
         </button>
@@ -1238,7 +1238,7 @@
     <config guid="faf3f543-39b8-42fc-a5d5-dad6b4fe465d">
       <active>true</active>
       <description>MFD HDG</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="HDG BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="HDG BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_PANEL_HEADING_HOLD)" presetId="7381a1cb-6729-44e8-bc82-42bdce3aba45" />
         </button>
@@ -1249,7 +1249,7 @@
     <config guid="4b460539-f965-4ec8-8967-5c14fdd780be">
       <active>true</active>
       <description>MFD ALT</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="ALT BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="ALT BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_ALT_HOLD)" presetId="d6d010d0-4e18-48d0-8327-7c106e3ebcce" />
         </button>
@@ -1260,7 +1260,7 @@
     <config guid="b580f005-5c5d-4f2d-a5a4-5cd7bfb147be">
       <active>true</active>
       <description>MFD NAV</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="NAV BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="NAV BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_NAV1_HOLD)" presetId="83a61eaf-5315-445b-bc1e-bc76135cca76" />
         </button>
@@ -1271,7 +1271,7 @@
     <config guid="4db2f57b-efc9-481f-a3e9-073308b270e2">
       <active>true</active>
       <description>MFD VNV</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="VNV BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="VNV BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_VNAV_TOGGLE)" presetId="ae7e3f46-16f2-4073-9b8f-959754289b5b" />
         </button>
@@ -1282,7 +1282,7 @@
     <config guid="2498cc67-6897-4df5-9a55-f20214133336">
       <active>true</active>
       <description>MFD APR</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="APR BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="APR BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_APR_HOLD)" presetId="de7fab05-76c5-4fc1-a86a-e32a31c5aff3" />
         </button>
@@ -1293,7 +1293,7 @@
     <config guid="3aa83ad9-905a-4956-8a6b-ac04bfb913b1">
       <active>true</active>
       <description>MFD BC</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="BC BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="BC BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_BC_HOLD)" presetId="6e29a887-cb7e-423b-b17a-ea7d0c9004e4" />
         </button>
@@ -1304,7 +1304,7 @@
     <config guid="e53572b8-72fa-4f15-934b-a3ae7e9da112">
       <active>true</active>
       <description>MFD VS</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="VS BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="VS BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:AP_PANEL_VS_HOLD)" presetId="6a81e461-5a7b-4dbf-b0b2-7cacc179df42" />
         </button>
@@ -1315,7 +1315,7 @@
     <config guid="a19c4aba-96de-48b8-af79-58e3cba5ff54">
       <active>true</active>
       <description>MFD FLC</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="FLC BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="FLC BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:FLIGHT_LEVEL_CHANGE) (A:AIRSPEED INDICATED, knots) (&gt;K:AP_SPD_VAR_SET)" presetId="05dababd-c9ed-4951-a4f6-c5b6e07ed271" />
         </button>
@@ -1326,7 +1326,7 @@
     <config guid="8248bb83-45da-40b7-9596-670d22588a33">
       <active>true</active>
       <description>MFD NOSE UP</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="NOSE UP BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="NOSE UP BTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(A:AUTOPILOT VERTICAL HOLD, Bool) if{ (&gt;K:AP_VS_VAR_INC) (&gt;H:AP_DN) } (A:AUTOPILOT FLIGHT LEVEL CHANGE, Bool) if{ (&gt;K:AP_SPD_VAR_DEC) } (A:AUTOPILOT PITCH HOLD, Bool) if{ (&gt;K:AP_PITCH_REF_INC_UP) }" presetId="c4475664-1c04-4a1f-8b1d-e0b99d168b5d" />
         </button>
@@ -1337,7 +1337,7 @@
     <config guid="f7a8c92e-bc65-4efd-9daf-3685406eb358">
       <active>true</active>
       <description>MFD NOSE DN</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="NOSE DN NTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="NOSE DN NTN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(A:AUTOPILOT VERTICAL HOLD, Bool) if{ (&gt;K:AP_VS_VAR_DEC) (&gt;H:AP_UP) } (A:AUTOPILOT FLIGHT LEVEL CHANGE, Bool) if{ (&gt;K:AP_SPD_VAR_INC) } (A:AUTOPILOT PITCH HOLD, Bool) if{ (&gt;K:AP_PITCH_REF_INC_DN) }" presetId="538fd136-68cc-462f-8021-89a7de5062d4" />
         </button>
@@ -1348,7 +1348,7 @@
     <config guid="f07bd66b-8ba5-4c40-99d4-e24688231a37">
       <active>true</active>
       <description>MFD ALT OUT</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="ALT OUTER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="ALT OUTER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command=" (A:AUTOPILOT ALTITUDE LOCK VAR, feet) 1000 - (&gt;K:AP_ALT_VAR_SET_ENGLISH) (&gt;H:AP_KNOB_Up)" presetId="7f5c33b5-7347-4a93-b03a-04b9f49761aa" />
           <onLeftFast />
@@ -1362,7 +1362,7 @@
     <config guid="65482be4-6955-4a4f-8fe0-c4a11238433d">
       <active>true</active>
       <description>MFD ALT IN</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="ALT INNER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="ALT INNER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command=" (A:AUTOPILOT ALTITUDE LOCK VAR, feet) 100 - (&gt;K:AP_ALT_VAR_SET_ENGLISH) (&gt;H:AP_KNOB_Up)" presetId="d03873bb-2f72-4d88-ba00-d338c5627c89" />
           <onLeftFast />
@@ -1376,7 +1376,7 @@
     <config guid="357518a1-c782-4035-92b0-b54169d63ded">
       <active>true</active>
       <description>MFD ALT Push</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="3">
           <onPress type="MSFS2020CustomInputAction" command="(A:INDICATED ALTITUDE, feet) (&gt;K:AP_ALT_VAR_SET_ENGLISH) (&gt;H:AP_KNOB)" presetId="873e1e15-beba-450b-a151-c0aec12445bf" />
         </inputMultiplexer>
@@ -1387,7 +1387,7 @@
     <config guid="5b24d78b-d652-40ef-8710-f4c18c9061be">
       <active>true</active>
       <description>MFD Soft Key 1</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="4">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_1)" presetId="73261a9b-17e6-4de8-997f-59e624136da6" />
         </inputMultiplexer>
@@ -1398,7 +1398,7 @@
     <config guid="16ce189d-ac76-4a85-89d5-fead8767e6eb">
       <active>true</active>
       <description>MFD Soft Key 2</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="5">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_2)" presetId="2774b577-3ba1-423a-8074-86a68170a81b" />
         </inputMultiplexer>
@@ -1409,7 +1409,7 @@
     <config guid="ade9154b-2b03-40e1-aa6b-90558010bfaf">
       <active>true</active>
       <description>MFD Soft Key 3</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="6">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_3)" presetId="8fd01e9b-5546-4128-bf73-58036c3b4eff" />
         </inputMultiplexer>
@@ -1420,7 +1420,7 @@
     <config guid="52e254f4-259f-4afd-84f0-01bae65ad5dd">
       <active>true</active>
       <description>MFD Soft Key 4</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="7">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_4)" presetId="07fd7871-b390-4136-b63c-ced0280449b4" />
         </inputMultiplexer>
@@ -1431,7 +1431,7 @@
     <config guid="5101f562-7e07-4008-b811-811d3a8de949">
       <active>true</active>
       <description>MFD Soft Key 5</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="8">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_5)" presetId="8e1ded32-63e4-4a8d-8b42-21a84ac2fba5" />
         </inputMultiplexer>
@@ -1442,7 +1442,7 @@
     <config guid="0975426f-dd43-4a26-be07-25b4e5cbde8f">
       <active>true</active>
       <description>MFD Soft Key 6</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="9">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_6)" presetId="c177c0bf-78d9-47b8-b1f5-906e0126fe85" />
         </inputMultiplexer>
@@ -1453,7 +1453,7 @@
     <config guid="36a4b456-aa42-4c8f-99e3-141356e639a7">
       <active>true</active>
       <description>MFD Soft Key 7</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="10">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_7)" presetId="a706b901-fd6d-4a1f-893a-4dc9f5c2ae4c" />
         </inputMultiplexer>
@@ -1464,7 +1464,7 @@
     <config guid="061aa4c1-883b-4c55-b4ff-92ed2677ab33">
       <active>true</active>
       <description>MFD Soft Key 8</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="11">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_8)" presetId="10eb38b1-21eb-4e69-8f7e-3be816ca4403" />
         </inputMultiplexer>
@@ -1475,7 +1475,7 @@
     <config guid="d7aea0cd-8fd1-4407-b6ef-2250c489dfcc">
       <active>true</active>
       <description>MFD Soft Key 9</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="12">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_9)" presetId="21ffc3fc-5f57-4689-9612-63cc9e7c53c4" />
         </inputMultiplexer>
@@ -1486,7 +1486,7 @@
     <config guid="ad553836-8ade-4a00-b800-71ee85b08a45">
       <active>true</active>
       <description>MFD Soft Key 10</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="13">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_10)" presetId="93d57e87-643b-4ca2-8190-590c736b4280" />
         </inputMultiplexer>
@@ -1497,7 +1497,7 @@
     <config guid="66d93412-6824-4ec9-8b04-d05defa48cf1">
       <active>true</active>
       <description>MFD Soft Key 11</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="14">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_11)" presetId="235e322b-1bf2-4328-94a8-a300e4bd59f2" />
         </inputMultiplexer>
@@ -1508,7 +1508,7 @@
     <config guid="cb967881-6980-4932-9c33-c7e753650d06">
       <active>true</active>
       <description>MFD Soft Key 12</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MUX1" type="InputMultiplexer" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <inputMultiplexer DataPin="15">
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_SOFTKEYS_12)" presetId="7cb85aba-44b1-40ac-97be-addd32d4b802" />
         </inputMultiplexer>
@@ -1519,7 +1519,7 @@
     <config guid="66649cdb-c602-4cfb-a051-b44cfe133c1f">
       <active>false</active>
       <description>MFD COM VOL Encdr + BL</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="COM VOL" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="COM VOL" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(L:MFD BTN BACKLIGHT CONTROL,Bool) if{ (L:MFD BTN BACKLIGHT, Number) 5 &gt; if{ (L:MFD BTN BACKLIGHT, Number) 10 - (&gt;L:MFD BTN BACKLIGHT, Number) } } els{ (&gt;H:AS1000_MFD_VOL_2_DEC) }&#xA;" presetId="43b6acab-a27f-4955-a3d3-7dce8d756ec9" />
           <onLeftFast />
@@ -1533,7 +1533,7 @@
     <config guid="80ecf1d3-34f2-4591-8bd6-2b956bc06ab7">
       <active>true</active>
       <description>MFD COM VOL Encdr only</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="COM VOL" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="COM VOL" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_VOL_2_DEC)&#xA;" presetId="43b6acab-a27f-4955-a3d3-7dce8d756ec9" />
           <onLeftFast />
@@ -1561,7 +1561,7 @@
     <config guid="7384ca0f-7eed-4757-aa9a-dd547a3cbfd2">
       <active>true</active>
       <description>MFD COM flip flop</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="COM SWAP 1-2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="COM SWAP 1-2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_COM_Switch)" presetId="40633d29-137b-4a23-9dde-78954b5407d3" />
           <onRelease type="MSFS2020CustomInputAction" command="" presetId="-" />
@@ -1573,7 +1573,7 @@
     <config guid="770f5cc0-28a5-48d8-a7b4-00bd51de818e">
       <active>true</active>
       <description>MFD COM OUT</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="COM FREQ OUTER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="COM FREQ OUTER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_COM_Large_DEC)" presetId="2f0cace6-2263-4a41-937b-b263a633635b" />
           <onLeftFast />
@@ -1587,7 +1587,7 @@
     <config guid="abdabe4c-1598-40bb-9a0d-178ceb84ad37">
       <active>true</active>
       <description>MFD COM IN</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="COM FREQ INNER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="COM FREQ INNER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_COM_Small_DEC)" presetId="c9e9d87f-1f76-4bc2-9d21-035f916d2a17" />
           <onLeftFast />
@@ -1601,7 +1601,7 @@
     <config guid="c7eb274f-5382-4b14-916c-bcd1cf6c535a">
       <active>true</active>
       <description>MFD COM Push</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="COM FREQ PUSH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="COM FREQ PUSH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_COM_Push)" presetId="b1568dcd-a9c8-4b2b-b76c-c6c249ad7d5f" />
         </button>
@@ -1612,7 +1612,7 @@
     <config guid="27d236c6-db36-4633-af5e-d857bf7618e9">
       <active>true</active>
       <description>MFD Baro Encdr</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="CRSBARO BARO" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="CRSBARO BARO" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_BARO_DEC)" presetId="a1ad8c39-49b1-4cc8-85e7-6bbcdceeb29a" />
           <onLeftFast />
@@ -1626,7 +1626,7 @@
     <config guid="0b11bb8c-41c1-482b-a5f8-9e3b80f8f845">
       <active>true</active>
       <description>MFD CRS Encdr</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="CRSBARO CRS" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="CRSBARO CRS" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_CRS_DEC)" presetId="5e79e34d-0346-447a-9f07-ce69d65d9a36" />
           <onLeftFast />
@@ -1640,7 +1640,7 @@
     <config guid="b9727c0e-c79b-4238-a2d0-028a165d9087">
       <active>false</active>
       <description>MFD Baro Encdr TBM Mod</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MFD CRSBARO IN" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MFD CRSBARO IN" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_BARO_DEC)" presetId="a1ad8c39-49b1-4cc8-85e7-6bbcdceeb29a" />
           <onLeftFast />
@@ -1654,7 +1654,7 @@
     <config guid="c0b8ceba-3835-40ab-9405-1c38806e6e64">
       <active>true</active>
       <description>MFD CRS Push</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="CRSBARO PUSH " type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="CRSBARO PUSH " type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_CRS_PUSH)" presetId="03ed22c6-ea05-4dfc-ba9a-5cba0ce964ef" />
         </button>
@@ -1665,7 +1665,7 @@
     <config guid="7adab563-13a2-427f-98eb-3a1de72e32c3">
       <active>false</active>
       <description>MFD Baro Push TBM Mod</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MFD CRS BARO Push " type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MFD CRS BARO Push " type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;K:BAROMETRIC_STD_PRESSURE)" presetId="16f15d60-e3b9-4249-acdc-fc8093dff609" />
         </button>
@@ -1676,7 +1676,7 @@
     <config guid="9783a53e-b051-457b-a54d-caf5795d4961">
       <active>true</active>
       <description>MFD PAN up</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="RANGE UP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="RANGE UP" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:MFD_RNG_PAN_UP,bool)" presetId="0" />
           <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:MFD_RNG_PAN_UP,bool)" presetId="0" />
@@ -1688,7 +1688,7 @@
     <config guid="92e367cf-dbd9-4922-b6fa-6aceb0e6998d">
       <active>true</active>
       <description>MFD PAN down</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="RANGE DOWN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="RANGE DOWN" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:MFD_RNG_PAN_DN,bool)" presetId="0" />
           <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:MFD_RNG_PAN_DN,bool)" presetId="0" />
@@ -1700,7 +1700,7 @@
     <config guid="fe7f81cc-51d5-49d0-a08b-df081b898656">
       <active>true</active>
       <description>MFD PAN  left</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="RANGE LEFT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="RANGE LEFT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:MFD_RNG_PAN_LT,bool)" presetId="0" />
           <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:MFD_RNG_PAN_LT,bool)" presetId="0" />
@@ -1712,7 +1712,7 @@
     <config guid="43b5a97c-47d8-4ad3-b935-c063c9ddd65f">
       <active>true</active>
       <description>MFD PAN  right</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="RANGE RIGHT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="RANGE RIGHT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="1 (&gt;L:MFD_RNG_PAN_RT,bool)" presetId="0" />
           <onRelease type="MSFS2020CustomInputAction" command="0 (&gt;L:MFD_RNG_PAN_RT,bool)" presetId="0" />
@@ -1724,7 +1724,7 @@
     <config guid="22118701-bafb-4f25-87f9-7847b4e87769">
       <active>true</active>
       <description>MFD Range Encdr</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="RANGE ZOOM" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="RANGE ZOOM" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_RANGE_DEC)" presetId="f5754549-83b4-4a1b-9ef6-21fe444ceece" />
           <onLeftFast />
@@ -1738,7 +1738,7 @@
     <config guid="727af243-357c-4ea1-9842-b7b7564a800c">
       <active>true</active>
       <description>MFD Range Push</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="RANGE Push" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="RANGE Push" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_JOYSTICK_PUSH)" presetId="8fb0272e-584c-4fdb-8ac1-b853124768bf" />
         </button>
@@ -1749,7 +1749,7 @@
     <config guid="b9a8ed1c-4acb-4e9c-aa2e-ff97137521ec">
       <active>true</active>
       <description>MFD Direct To</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="DIRECT TO" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="DIRECT TO" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_DIRECTTO)" presetId="2766a15c-f7a6-4a7e-ae54-8a3f35ea5047" />
         </button>
@@ -1760,7 +1760,7 @@
     <config guid="2fb73916-1c38-466f-ad9b-8aabb5a4e9f0">
       <active>true</active>
       <description>MFD MENU</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="MENU" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="MENU" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_MENU_Push)" presetId="3824ae98-519c-40ef-b083-bf1d9fd3d451" />
         </button>
@@ -1771,7 +1771,7 @@
     <config guid="5c816e15-cb3b-49de-b37c-5a38c0185cba">
       <active>true</active>
       <description>MFD FPL</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="FPL" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="FPL" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_FPL_Push)" presetId="22812c0c-f2f4-419c-b12c-0d5889752463" />
         </button>
@@ -1782,7 +1782,7 @@
     <config guid="54a321a4-3ff1-4688-98c3-9246ae959913">
       <active>true</active>
       <description>MFD PROC</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="PROC" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="PROC" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_PROC_Push)" presetId="cdeef2be-8be8-440f-91d8-d138f238fdc6" />
         </button>
@@ -1793,7 +1793,7 @@
     <config guid="d128423a-9d4a-4ab9-af0f-916b6e1f1a87">
       <active>true</active>
       <description>MFD CLR</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="CLR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="CLR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(E:SIMULATION TIME,second) 2 + (&gt;L:myTshort)" presetId="dc6ffbf7-9ead-421c-850c-b3ac8198041f" />
           <onRelease type="MSFS2020CustomInputAction" command="(E:SIMULATION TIME,second) (L:myTshort) &lt; if{ (&gt;H:AS1000_MFD_CLR) }&#xA;els{ (&gt;H:AS1000_MFD_CLR_Long) }&#xA;0 (&gt;L:myTshort)&#xA;&#xA;" presetId="cdb7a6d7-3b41-4bff-8ca6-63e0e66edeb4" />
@@ -1805,7 +1805,7 @@
     <config guid="0250d7d3-3c9d-4321-8985-4e096b4b72e2">
       <active>true</active>
       <description>MFD ENT</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="ENT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="ENT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_ENT_Push)" presetId="361208b1-4161-4752-9c65-8146fa5cb14d" />
         </button>
@@ -1816,7 +1816,7 @@
     <config guid="784860e7-90b4-4821-9112-374749471f9e">
       <active>true</active>
       <description>MFD FMS OUT</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="FMS OUTER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="FMS OUTER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_FMS_Lower_DEC)" presetId="22c0671b-e21b-4dad-a552-b0d410f88f70" />
           <onLeftFast />
@@ -1830,7 +1830,7 @@
     <config guid="97b4d9e0-5cb8-45c9-8937-a09d2862a88d">
       <active>true</active>
       <description>MFD FMS IN</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="FMS INNER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="FMS INNER" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <encoder>
           <onLeft type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_FMS_Upper_DEC)" presetId="38c75d3c-023b-49c9-810c-cd429107c321" />
           <onLeftFast />
@@ -1844,7 +1844,7 @@
     <config guid="7980e017-1bf3-40d1-aaf5-e4230d76e80d">
       <active>true</active>
       <description>MFD FMS Push</description>
-      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 MFD/ SN-7G3-34D" name="FMS PUSH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=10.5.3.0, Culture=neutral, PublicKeyToken=null" serial="FSD G1000 PFD/ SN-4F6-017" name="FMS PUSH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
         <button>
           <onPress type="MSFS2020CustomInputAction" command="(&gt;H:AS1000_MFD_FMS_Upper_PUSH)" presetId="fc706663-24cf-4350-a9b7-35e4e1c6b7f8" />
         </button>
